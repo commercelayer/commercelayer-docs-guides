@@ -22,7 +22,7 @@ The following request retrieves the prices of the SKUs identified by a list of s
 
 ```javascript
 curl -X GET \
-  https://spineless.commercelayer.io/api/skus?filter[q][code_in]=TSHIRTG5B5B5BST,TSHIRTWF5F5F5MN,TSHIRTB0A0A0ACL,TSHIRTB212F3FSM&include=prices \
+  https://yourdomain.commercelayer.io/api/skus?filter[q][code_in]=TSHIRTG5B5B5BST,TSHIRTWF5F5F5MN,TSHIRTB0A0A0ACL,TSHIRTB212F3FSM&include=prices \
   -H 'Accept: application/vnd.api+json' \
   -H 'Authorization: Bearer your-access-token'
 ```
@@ -384,7 +384,7 @@ The following request retrieves the prices of all the _available_ SKUs:
 
 ```javascript
 curl -X GET \
-  https://spineless.commercelayer.io/api/skus?filter[q][code_in]=TSHIRTG5B5B5BST,TSHIRTWF5F5F5MN,TSHIRTB0A0A0ACL,TSHIRTB212F3FSM&filter[q][stock_items_quantity_gt]=0&include=prices \
+  https://yourdomain.commercelayer.io/api/skus?filter[q][code_in]=TSHIRTG5B5B5BST,TSHIRTWF5F5F5MN,TSHIRTB0A0A0ACL,TSHIRTB212F3FSM&filter[q][stock_items_quantity_gt]=0&include=prices \
   -H 'Accept: application/vnd.api+json' \
   -H 'Authorization: Bearer your-access-token'
 ```
