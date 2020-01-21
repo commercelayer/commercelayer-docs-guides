@@ -1,8 +1,8 @@
 ---
-description: 'How-tos, tutorials and everything you need to build with Commerce Layer'
+description: "How-tos, tutorials and everything you need to build with Commerce Layer"
 ---
 
-# Introduction
+# Intro
 
 Need to fetch prices and inventory, manage shopping carts, customer accounts, or checkout orders? This collection of guides and step-by-step tutorials is what you need, featuring how-tos, handy examples, and best practices for the most common scenarios.
 
@@ -20,4 +20,3 @@ Each guide roughly follows the same schema and is developed across four main sec
 ## Ask for more!
 
 We are working hard to make our documentation as helpful as possible. This list of guides is constantly growing and will be regularly updated. Anyway, if you don't find what you need, feel free to contact our support team at any time or contribute by sending your PR on Github!
-
