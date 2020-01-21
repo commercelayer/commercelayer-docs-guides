@@ -4,7 +4,7 @@ description: How to display price and availability on a product page
 
 # Product page
 
-## Problem
+## The Problem
 
 You've created a product page with your favorite CMS and now you want to display the price and the availability of the selected product. You also need to implement the "add to cart" function on the related button. The image below shows the three main dynamic elements of the page \(selling price, full price and inventory information\) and how each of these are mapped to a specific field of the SKU or price objects.
 
@@ -26,6 +26,7 @@ curl -X GET \
   -H 'Accept: application/vnd.api+json' \
   -H 'Authorization: Bearer your-access-token'
 ```
+
 {% endtab %}
 
 {% tab title="Response" %}
@@ -204,6 +205,7 @@ On success, the API responds with a `200 OK` status code, returning the SKU obje
   ]
 }
 ```
+
 {% endtab %}
 {% endtabs %}
 
@@ -231,6 +233,7 @@ curl -X GET \
   -H 'Accept: application/vnd.api+json' \
   -H 'Authorization: Bearer your-access-token'
 ```
+
 {% endtab %}
 
 {% tab title="Response" %}
@@ -260,6 +263,7 @@ On success, the API responds with a `200 OK` status code, returning the single S
   }
 }
 ```
+
 {% endtab %}
 {% endtabs %}
 
@@ -275,8 +279,9 @@ The following request retrieves the prices of the SKU identified by the "TSHIRTB
 curl -X GET \
   https://yourdomain.commercelayer.io/api/skus?filter[q][code_eq]=TSHIRTB5B5B5XL&include=prices \
   -H 'Accept: application/vnd.api+json' \
-  -H 'Authorization: Bearer your-access-token' 
+  -H 'Authorization: Bearer your-access-token'
 ```
+
 {% endtab %}
 
 {% tab title="Response" %}
@@ -377,10 +382,10 @@ On success, the API responds with a `200 OK` status code, returning the SKU obje
   }
 }
 ```
+
 {% endtab %}
 {% endtabs %}
 
 ## More to read
 
 See our API reference if you need more information on how to [filter data](https://docs.commercelayer.io/api/filtering-data), [include associations](https://docs.commercelayer.io/api/including-associations), and manage [sparse fieldsets](https://docs.commercelayer.io/api/sparse-fieldsets) or if you want to have an overview of all the specific [permissions and restrictions](https://docs.commercelayer.io/api/roles-and-permissions#sales-channel) set for a sales channel application.
-
