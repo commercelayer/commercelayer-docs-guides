@@ -12,7 +12,7 @@ You have some items in your shopping cart and you want to update their quantity.
 
 ## Solution
 
-To set the quantity of an item in your shopping cart you need to change its `quantity` attribute. To do that, send a `PATCH` request to the `/api/line_items/{{line_item_id}}` endpoint, where `{{line_item_id}}` is the ID of the line item that you want to update. 
+To set the quantity of an item in your shopping cart you need to change its `quantity` attribute. To do that, send a `PATCH` request to the `/api/line_items/:id` endpoint. 
 
 ### Example
 

@@ -12,7 +12,7 @@ You've created a product page with your favorite CMS and now you want to display
 
 ## Solution
 
-To retrieve the price and availability of a SKU, send a `GET` request to the `/api/skus/{{sku_id}}` endpoint \(where `{{sku_id}}` is the ID of the product\) and include the associated prices.
+To retrieve the price and availability of a SKU, send a `GET` request to the `/api/skus/:id` endpoint.
 
 ### Example
 
@@ -26,7 +26,6 @@ curl -X GET \
   -H 'Accept: application/vnd.api+json' \
   -H 'Authorization: Bearer your-access-token'
 ```
-
 {% endtab %}
 
 {% tab title="Response" %}
@@ -205,7 +204,6 @@ On success, the API responds with a `200 OK` status code, returning the SKU obje
   ]
 }
 ```
-
 {% endtab %}
 {% endtabs %}
 
@@ -233,7 +231,6 @@ curl -X GET \
   -H 'Accept: application/vnd.api+json' \
   -H 'Authorization: Bearer your-access-token'
 ```
-
 {% endtab %}
 
 {% tab title="Response" %}
@@ -263,7 +260,6 @@ On success, the API responds with a `200 OK` status code, returning the single S
   }
 }
 ```
-
 {% endtab %}
 {% endtabs %}
 
@@ -281,7 +277,6 @@ curl -X GET \
   -H 'Accept: application/vnd.api+json' \
   -H 'Authorization: Bearer your-access-token'
 ```
-
 {% endtab %}
 
 {% tab title="Response" %}
@@ -382,10 +377,10 @@ On success, the API responds with a `200 OK` status code, returning the SKU obje
   }
 }
 ```
-
 {% endtab %}
 {% endtabs %}
 
 ## More to read
 
 See our API reference if you need more information on how to [filter data](https://docs.commercelayer.io/api/filtering-data), [include associations](https://docs.commercelayer.io/api/including-associations), and manage [sparse fieldsets](https://docs.commercelayer.io/api/sparse-fieldsets) or if you want to have an overview of all the specific [permissions and restrictions](https://docs.commercelayer.io/api/roles-and-permissions#sales-channel) set for a sales channel application.
+

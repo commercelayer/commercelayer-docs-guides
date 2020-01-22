@@ -12,13 +12,13 @@ You have some items in your shopping cart and you want to remove one of them.
 
 ## Solution
 
-Removing a product \(SKU\) from your shopping cart means deleting an existing line item. To do that, send a `DELETE` request to the `/api/line_items/{{line_item_id}}` endpoint, where `{{line_item_id}}` is the ID of the line item that you want to remove. 
+Removing a product \(SKU\) from your shopping cart means deleting an existing line item. To do that, send a `DELETE` request to the `/api/line_items/:id` endpoint. 
 
 ### Example
 
 {% tabs %}
 {% tab title="Request" %}
-The following request removes a line item from your shopping cart:
+The following request removes the line item identified by the "aBmNkPQRst" ID from your shopping cart:
 
 ```javascript
 curl -X DELETE \
