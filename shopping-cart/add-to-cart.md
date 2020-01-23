@@ -35,7 +35,7 @@ curl -X POST \
         "quantity": 2,
         "name": "Grey T-Shirt XL",
         "image_url": "https://img.yourdomain.com/skus/TSHIRTB5B5B5XL.png",
-        "_update_quantity": "true"
+        "_update_quantity": true
       },
       "relationships": {
         "order": {
@@ -151,7 +151,7 @@ curl -X POST \
         "sku_code": "TSHIRTB5B5B5XL",
         "name": "Grey T-Shirt XL",
         "image_url": "https://img.yourdomain.com/skus/TSHIRTB5B5B5XL.png",
-        "_update_quantity": "true"
+        "_update_quantity": true
       },
       "relationships": {
         "order": {
@@ -245,13 +245,13 @@ If the quantity of the added item results higher than the available one in stock
 
 #### The `_update_quantity` param
 
-Specifying `"_update_quantity": "true"` in the request body lets you update the existing line item quantity \(if any\) instead of creating a new line item for the same SKU. That means:
+Specifying `"_update_quantity": true` in the request body lets you update the existing line item quantity \(if any\) instead of creating a new line item for the same SKU. That means:
 
 * if the item is already present in the shopping cart, its line item quantity attribute is updated
 * if the item is not present in the shopping cart a new line item is created and its quantity attribute is set to the `quantity` value
 
 {% hint style="warning" %}
-If you send the POST request without the `"_update_quantity": "true"` param a new line item is always created, even if the line item SKU is already present in the shopping cart.
+If you send the POST request without the `"_update_quantity": true` param a new line item is always created, even if the line item SKU is already present in the shopping cart.
 {% endhint %}
 
 #### The `name` and `image_url` fields
