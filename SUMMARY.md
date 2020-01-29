@@ -9,4 +9,5 @@
   * [Updating cart quantities](shopping-cart/update-quantity.md)
   * [Removing products from cart](shopping-cart/remove-from-cart.md)
   * [Displaying the cart summary](shopping-cart/displaying-the-cart-summary.md)
+* [Test](test.md)
 
