@@ -17,10 +17,6 @@ Within Commerce Layer, an order must have a valid payment method before the orde
 1.  Send a `GET` request to the `/api/orders/:id` endpoint, including the associated `available_payment_methods`. 
 2. Send a PATCH request to the `/api/orders/:id` endpoint, setting its `payment_method` relationship.
 
-The image below shows how the related action during the checkout process is mapped to a specific attribute of the order object.
-
-![A sample payment method selection mapping](../.gitbook/assets/select-payment-method-mapping.jpg)
-
 ### Example
 
 #### 1. Get the available payment methods
@@ -375,6 +371,12 @@ On success, the API responds with a `200 OK` status code, returning the updated 
 ```
 {% endtab %}
 {% endtabs %}
+
+### Mapping
+
+The image below shows how the related action during the checkout process is mapped to a specific attribute of the order object.
+
+![A sample payment method selection mapping](../.gitbook/assets/select-payment-method-mapping.jpg)
 
 ## Additional notes
 

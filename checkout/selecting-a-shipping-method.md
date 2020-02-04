@@ -17,10 +17,6 @@ Within Commerce Layer, an order can have many shipments and each shipment must h
 1. Send a `GET` request to the `/api/orders/:id/shipments` endpoint, including the associated `available_shipping_methods`. 
 2. Send a `PATCH` request to the `/api/shipments/:id` endpoint, setting its `shipping_method` relationship.
 
-The image below shows how the related action during the checkout process is mapped to a specific attribute of the shipment object.
-
-![A sample shipping method selection mapping](../.gitbook/assets/select-shipping-method-mapping.jpg)
-
 ### Example
 
 #### 1. Get the available shipping methods
@@ -294,6 +290,12 @@ On success, the API responds with a `200 OK` status code, returning the updated 
 ```
 {% endtab %}
 {% endtabs %}
+
+### Mapping
+
+The image below shows how the related action during the checkout process is mapped to a specific attribute of the shipment object.
+
+![A sample shipping method selection mapping](../.gitbook/assets/select-shipping-method-mapping.jpg)
 
 ## Additional notes
 

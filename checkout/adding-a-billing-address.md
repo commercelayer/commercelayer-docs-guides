@@ -17,10 +17,6 @@ To add a billing address to an order, you first need to create the new address a
 1. Send a `POST` request to the `/api/addresses` endpoint.
 2. Send a `PATCH` request to the `/api/orders/:id` endpoint, setting its `billing_address` relationship.
 
-The image below shows how each of fields of a typical billing address form is mapped to a specific field of the address or order objects.
-
-![A sample personal billing address form field mapping](../.gitbook/assets/new-billing-address-mapping%20%284%29.jpg)
-
 ### Example
 
 #### 1. Create a new address
@@ -255,6 +251,12 @@ On success, the API responds with a `201 Created` status code, returning the cre
 ```
 {% endtab %}
 {% endtabs %}
+
+### Mapping
+
+The image below shows how each of fields of a typical billing address form is mapped to a specific field of the address or order objects.
+
+![A sample personal billing address form field mapping](../.gitbook/assets/new-billing-address-mapping%20%284%29.jpg)
 
 ## Logged customers
 

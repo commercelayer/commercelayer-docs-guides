@@ -18,10 +18,6 @@ To add a gift card or coupon code to an order, send a `PATCH` request to the `/a
 In the unlikely event that both a gift card and a coupon code match the same code, the gift card takes the precedence.
 {% endhint %}
 
-The image below shows how the related action during the checkout process is mapped to a specific attribute of the order object.
-
-![A sample gift card redemption mapping](../.gitbook/assets/gift-card-coupon-mapping.jpg)
-
 ### Example
 
 {% tabs %}
@@ -164,6 +160,12 @@ On success, the API responds with a `200 OK` status code, returning the updated 
 ```
 {% endtab %}
 {% endtabs %}
+
+### Mapping
+
+The image below shows how the related action during the checkout process is mapped to a specific attribute of the order object.
+
+![A sample gift card redemption mapping](../.gitbook/assets/gift-card-coupon-mapping.jpg)
 
 ## Additional notes
 

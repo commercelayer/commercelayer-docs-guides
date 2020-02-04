@@ -17,10 +17,6 @@ To add a shipping address to an order, first you need to create the new address 
 1. Send a `POST` request to the `/api/addresses` endpoint.
 2. Send a `PATCH` request to the `/api/orders/:id` endpoint, setting its `shipping_address` relationship.
 
-The image below shows how each of fields of a typical shipping address form is mapped to a specific field of the address or order objects.
-
-![A sample company shipping address form field mapping](../.gitbook/assets/new-shipping-address-mapping.jpg)
-
 ### Example
 
 #### 1. Create a new address
@@ -255,6 +251,12 @@ On success, the API responds with a `200 OK` status code, returning the updated 
 ```
 {% endtab %}
 {% endtabs %}
+
+### Mapping
+
+The image below shows how each of fields of a typical shipping address form is mapped to a specific field of the address or order objects.
+
+![A sample company shipping address form field mapping](../.gitbook/assets/new-shipping-address-mapping.jpg)
 
 ## Logged customers
 
