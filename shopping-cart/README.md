@@ -6,7 +6,7 @@ description: How to add a shopping cart to your website
 
 When building ecommerce, the shopping cart management is one of the key steps, as it bridges the gap between browsing and buying, driving the customer to the checkout process.
 
-![](../.gitbook/assets/product-page-cart-summary.jpg)
+![A sample product page with shopping cart summary](../.gitbook/assets/product-page-cart-summary-cover%20%281%29.jpg)
 
 This guide will walk you through all the actions that you typically want to implement on your shopping cart, like adding a new line item, updating quantities, or displaying a cart summary to the customer.
 

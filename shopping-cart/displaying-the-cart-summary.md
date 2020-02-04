@@ -6,9 +6,9 @@ description: How to show an order summary to your customers
 
 ## Problem
 
-You want to display an order summary to your customer, including the order line items and totals. The image below shows how each of the elements of the shopping cart is mapped to a specific field of the order or line item objects. 
+You want to display an order summary to your customer, including the order line items and totals. 
 
-![](../.gitbook/assets/cart-summary-mapping-4-lines-gift-card.jpg)
+![A sample cart summary](../.gitbook/assets/cart-summary-cover.jpg)
 
 ## Solution
 
@@ -26,7 +26,7 @@ The following request fetches the list of line items associated to the order ide
 
 ```javascript
 curl -X GET \
-  'https://yourdomain.commercelayer.io/api/orders/yzkWXfgHQS?include=line_items&fields[orders]=number,skus_count,formatted_subtotal_amount,formatted_discount_amount,formatted_shipping_amount,formatted_gift_card_amount,formatted_total_tax_amount,formatted_total_amount_with_taxes&fields[line_items]=item_type,image_url,name,sku_code,formatted_unit_amount,quantity,formatted_total_amount' \
+  'https://yourdomain.commercelayer.io/api/orders/yzkWXfgHQS?include=line_items&fields[orders]=number,skus_count,formatted_subtotal_amount,formatted_discount_amount,formatted_shipping_amount,formatted_total_tax_amount,formatted_gift_card_amount,formatted_total_amount_with_taxes&fields[line_items]=item_type,image_url,name,sku_code,formatted_unit_amount,quantity,formatted_total_amount' \
   -H 'Accept: application/vnd.api+json' \
   -H 'Authorization: Bearer your-access-token'
 ```
@@ -47,7 +47,7 @@ On success, the API responds with a `200 OK` status code, returning the order ob
       "number": 1234,
       "skus_count": 7,
       "formatted_subtotal_amount": "843.00€",
-      "formatted_discount_amount": "84.30€",
+      "formatted_discount_amount": "-84.30€",
       "formatted_shipping_amount": "10.00€",
       "formatted_total_tax_amount": "168.60€",
       "formatted_gift_card_amount": "-50.00€",
@@ -59,29 +59,10 @@ On success, the API responds with a `200 OK` status code, returning the order ob
 },
 "included": [
     {
-      "id": "yRrYtArady",
-      "type": "line_items",
-      "links": {
-        "self": "https://yourdomain.commercelayer.io/api/line_items/yRrYtArady"
-      },
-      "attributes": {
-        "item_type": "gift_cards",
-        "image_url": "https://img.yourdomain.com/gift_cards/GF50EUR.png",
-        "name": "Gift card: €50,00",
-        "sku_code": null,
-        "formatted_unit_amount": "-€50,00",
-        "quantity": 1,
-        "formatted_total_amount": "-€50,00"
-      },
-      "meta": {
-        "mode": "test"
-      }
-    },
-    {
       "id": "aBmNkPQRst",
       "type": "line_items",
       "links": {
-          "self": "https://yourdomain.commercelayer.io/api/line_items/aBmNkPQRst"
+          "self": "https://spineless.commercelayer.io/api/line_items/aBmNkPQRst"
       },
       "attributes": {
         "item_type": "skus",
@@ -100,7 +81,7 @@ On success, the API responds with a `200 OK` status code, returning the order ob
       "id": "kXBqtVaYMN",
       "type": "line_items",
       "links": {
-        "self": "https://yourdomain.commercelayer.io/api/line_items/kXBqtVaYMN"
+        "self": "https://spineless.commercelayer.io/api/line_items/kXBqtVaYMN"
       },
       "attributes": {
         "item_type": "skus",
@@ -119,7 +100,7 @@ On success, the API responds with a `200 OK` status code, returning the order ob
       "id": "ypQptRQABk",
       "type": "line_items",
       "links": {
-        "self": "https://yourdomain.commercelayer.io/api/line_items/ypQptRQABk"
+        "self": "https://spineless.commercelayer.io/api/line_items/ypQptRQABk"
       },
       "attributes": {
         "item_type": "skus",
@@ -138,7 +119,7 @@ On success, the API responds with a `200 OK` status code, returning the order ob
       "id": "yaoMtJoqjv",
       "type": "line_items",
       "links": {
-        "self": "https://yourdomain.commercelayer.io/api/line_items/yaoMtJoqjv"
+        "self": "https://spineless.commercelayer.io/api/line_items/yaoMtJoqjv"
       },
       "attributes": {
         "item_type": "skus",
@@ -161,6 +142,12 @@ On success, the API responds with a `200 OK` status code, returning the order ob
 ```
 {% endtab %}
 {% endtabs %}
+
+### Mapping
+
+The image below shows how each of the elements of the shopping cart is mapped to a specific field of the order or line item objects. 
+
+![A sample cart summary mapping](../.gitbook/assets/cart-summary-mapping.jpg)
 
 ## Additional notes
 

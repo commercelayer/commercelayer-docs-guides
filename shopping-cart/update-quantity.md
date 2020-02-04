@@ -8,7 +8,7 @@ description: How to update the quantity of an item in your shopping cart
 
 You have some items in your shopping cart and you want to update their quantity.
 
-![](../.gitbook/assets/cart-summary-zoom-update-quantity-3-lines%20%281%29.jpg)
+![A sample cart quantity selection](../.gitbook/assets/update-cart-quantities-cover.jpg)
 
 ## Solution
 
@@ -111,6 +111,12 @@ If the updated quantity results higher than the available quantity in stock, the
 ```
 {% endtab %}
 {% endtabs %}
+
+### Mapping
+
+The image below shows how the related action on the product quantity is mapped to a specific attribute of the line item object.
+
+![A sample cart quantity update mapping](../.gitbook/assets/update-cart-quantities-mapping.jpg)
 
 ## More to read
 

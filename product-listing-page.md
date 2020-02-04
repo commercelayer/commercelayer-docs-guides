@@ -6,9 +6,9 @@ description: How to display prices for a list of products
 
 ## Problem
 
-You've created a product listing page \(i.e. category or collection page\) with your favorite CMS and now you want to display the price for each of the products. You have the SKU codes of the products you want to list. The image below shows the two main dynamic elements of the page \(selling price and full price\) and how each of these are mapped to a specific field of the price object.
+You've created a product listing page \(i.e. category or collection page\) with your favorite CMS and now you want to display the price for each of the products. You have the SKU codes of the products you want to list. 
 
-![](.gitbook/assets/product-listing-page-mapping.jpg)
+![A sample product listing page](.gitbook/assets/product-listing-page-cover.jpg)
 
 ## Solution
 
@@ -324,7 +324,7 @@ On success, the API responds with a `200 OK` status code, returning the four SKU
       "id": "aDPrUElXla",
       "type": "prices",
       "links": {
-        "self": "https://spineless.commercelayer.io/api/prices/aDPrUElXla"
+        "self": "https://yourdomain.commercelayer.io/api/prices/aDPrUElXla"
       },
       "attributes": {
         "currency_code": "EUR",
@@ -358,8 +358,8 @@ On success, the API responds with a `200 OK` status code, returning the four SKU
       "page_count": 1
   },
   "links": {
-      "first": "https://spineless.commercelayer.io/api/skus?filter[q][code_in]=TSHIRTG5B5B5BST,TSHIRTWF5F5F5MN,TSHIRTB0A0A0ACL,TSHIRTB212F3FSM&include=prices&page[number]=1&page[size]=10",
-      "last": "https://spineless.commercelayer.io/api/skus?filter[q][code_in]=TSHIRTG5B5B5BST,TSHIRTWF5F5F5MN,TSHIRTB0A0A0ACL,TSHIRTB212F3FSM&include=prices&page[number]=1&page[size]=10"
+      "first": "https://yourdomain.commercelayer.io/api/skus?filter[q][code_in]=TSHIRTG5B5B5BST,TSHIRTWF5F5F5MN,TSHIRTB0A0A0ACL,TSHIRTB212F3FSM&include=prices&page[number]=1&page[size]=10",
+      "last": "https://yourdomain.commercelayer.io/api/skus?filter[q][code_in]=TSHIRTG5B5B5BST,TSHIRTWF5F5F5MN,TSHIRTB0A0A0ACL,TSHIRTB212F3FSM&include=prices&page[number]=1&page[size]=10"
   }
 }
 ```
@@ -369,6 +369,12 @@ On success, the API responds with a `200 OK` status code, returning the four SKU
 {% hint style="info" %}
 This API call doesn't return any detail about the availability of the SKUs because, for performance reasons, the `inventory` information is only returned when fetching a single SKU.
 {% endhint %}
+
+### Mapping
+
+The image below shows the two main dynamic elements of the page \(selling price and full price\) and how each of these are mapped to a specific field of the price object.
+
+![A sample product listing page mapping](.gitbook/assets/product-listing-page-mapping.jpg)
 
 ## Additional notes
 

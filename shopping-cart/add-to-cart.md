@@ -8,7 +8,7 @@ description: How to add new items to your shopping cart
 
 You want to implement the "add to cart" function on a product page. You have the order ID and either the new item ID or SKU code.
 
-![](../.gitbook/assets/add-to-cart%20%284%29.jpg)
+![A sample product page with &quot;add to cart&quot; button](../.gitbook/assets/add-to-cart-cover.jpg)
 
 ## Solution
 
@@ -32,10 +32,10 @@ curl -X POST \
     "data": {
       "type": "line_items",
       "attributes": {
-        "quantity": 2,
+        "quantity": 1,
         "name": "Grey T-Shirt XL",
         "image_url": "https://img.yourdomain.com/skus/TSHIRTB5B5B5XL.png",
-        "_update_quantity": true
+        "_update_quantity": 1
       },
       "relationships": {
         "order": {
@@ -57,7 +57,7 @@ curl -X POST \
 {% endtab %}
 
 {% tab title="Response" %}
-On success, the API responds with a `201 Created` status code, returning the created line item object:
+On success, the API responds with a `201 Created` status code, returning the created \(or [updated](add-to-cart.md#the-_update_quantity-param)\) line item object:
 
 ```javascript
 {
@@ -147,11 +147,11 @@ curl -X POST \
     "data": {
       "type": "line_items",
       "attributes": {
-        "quantity": 2,
+        "quantity": 1,
         "sku_code": "TSHIRTB5B5B5XL",
         "name": "Grey T-Shirt XL",
         "image_url": "https://img.yourdomain.com/skus/TSHIRTB5B5B5XL.png",
-        "_update_quantity": true
+        "_update_quantity": 1
       },
       "relationships": {
         "order": {

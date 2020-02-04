@@ -6,13 +6,13 @@ description: How to display price and availability on a product page
 
 ## The Problem
 
-You've created a product page with your favorite CMS and now you want to display the price and the availability of the selected product. You also need to implement the "add to cart" function on the related button. The image below shows the three main dynamic elements of the page \(selling price, full price and inventory information\) and how each of these are mapped to a specific field of the SKU or price objects.
+You've created a product page with your favorite CMS and now you want to display the price and the availability of the selected product. You also need to implement the "add to cart" function on the related button.
 
-![](.gitbook/assets/product-page-mapping-wide.jpg)
+![A sample product page](.gitbook/assets/product-page-cover%20%281%29.jpg)
 
 ## Solution
 
-To retrieve the price and availability of a SKU, send a `GET` request to the `/api/skus/:id` endpoint.
+To retrieve the price and availability of a SKU, send a `GET` request to the `/api/skus/:id` endpoint and include the associated prices.
 
 ### Example
 
@@ -214,6 +214,12 @@ For performance reasons, the `inventory` information is only returned when fetch
 To implement the "add to cart" function, please refer to this guide:
 
 {% page-ref page="shopping-cart/add-to-cart.md" %}
+
+### Mapping
+
+The image below shows the three main dynamic elements of the page \(selling price, full price and inventory information\) and how each of these are mapped to a specific field of the SKU or price objects.
+
+![A sample product page mapping](.gitbook/assets/product-page-mapping.jpg)
 
 ## Additional notes
 
