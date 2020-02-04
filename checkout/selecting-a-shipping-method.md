@@ -37,7 +37,7 @@ curl -X GET \
 ```
 {% endtab %}
 
-{% tab title="Second Tab" %}
+{% tab title="Response" %}
 On success, the API responds with a `200 OK` status code, returning the list of shipment  objects and the associated available shipping methods:
 
 ```javascript
@@ -233,7 +233,7 @@ curl -X PATCH \
 ```
 {% endtab %}
 
-{% tab title="Second Tab" %}
+{% tab title="Response" %}
 On success, the API responds with a `200 OK` status code, returning the updated shipment object:
 
 ```javascript

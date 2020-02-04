@@ -88,27 +88,6 @@ On success, the API responds with a `200 OK` status code, returning the line ite
   }
 }
 ```
-
-If the updated quantity results higher than the available quantity in stock, the API responds with a `422 Unprocessable Entity` error:
-
-```javascript
-{
-  "errors": [
-    {
-      "title": "is out of stock",
-      "detail": "quantity - is out of stock",
-      "code": "VALIDATION_ERROR",
-      "source": {
-        "pointer": "/data/attributes/quantity"
-      },
-      "status": "422",
-      "meta": {
-        "error": "out_of_stock"
-      }
-    }
-  ]
-}
-```
 {% endtab %}
 {% endtabs %}
 

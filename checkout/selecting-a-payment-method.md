@@ -275,7 +275,7 @@ On success, the API responds with a `200 OK` status code, returning the updated 
       "fulfillment_status": "unfulfilled",
       "guest": true,
       "editable": true,
-      "placeable": true,
+      "placeable": false,
       "customer_email": "john@example.com",
       "language_code": "en",
       "currency_code": "EUR",

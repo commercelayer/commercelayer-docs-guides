@@ -499,7 +499,7 @@ On success, the API responds with a `200 OK` status code, returning the updated 
       "status": "pending",
       "payment_status": "unpaid",
       "fulfillment_status": "unfulfilled",
-      "guest": true,
+      "guest": false,
       "editable": true,
       "placeable": false,
       "customer_email": "john@example.com",

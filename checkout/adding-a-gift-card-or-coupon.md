@@ -60,7 +60,7 @@ On success, the API responds with a `200 OK` status code, returning the updated 
     "attributes": {
       "number": 1234,
       "status": "pending",
-      "payment_status": "authorized",
+      "payment_status": "unpaid",
       "fulfillment_status": "unfulfilled",
       "guest": true,
       "editable": true,
