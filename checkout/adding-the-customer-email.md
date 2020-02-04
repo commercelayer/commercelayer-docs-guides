@@ -18,10 +18,6 @@ The easiest way to set the customer of an order is to change its `customer_email
 In case a customer with the same email address exists in your organization, that customer is associated with the order, otherwise a new customer is created.
 {% endhint %}
 
-The image below shows how the related field of an email form is mapped to a specific attribute of the order object.
-
-![](../.gitbook/assets/customer-email-mapping%20%281%29.jpg)
-
 ### Example
 
 {% tabs %}
@@ -164,6 +160,12 @@ On success, the API responds with a `200 OK` status code, returning the updated 
 ```
 {% endtab %}
 {% endtabs %}
+
+### Mapping
+
+The image below shows how the related field of an email form is mapped to a specific attribute of the order object.
+
+![](../.gitbook/assets/customer-email-mapping%20%281%29.jpg)
 
 ## Logged customers
 
