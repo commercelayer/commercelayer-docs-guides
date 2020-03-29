@@ -26,7 +26,7 @@ The following request fetches the list of line items associated to the order ide
 
 ```javascript
 curl -X GET \
-  'https://yourdomain.commercelayer.io/api/orders/yzkWXfgHQS?include=line_items&fields[orders]=number,skus_count,formatted_subtotal_amount,formatted_discount_amount,formatted_shipping_amount,formatted_total_tax_amount,formatted_gift_card_amount,formatted_total_amount_with_taxes&fields[line_items]=item_type,image_url,name,sku_code,formatted_unit_amount,quantity,formatted_total_amount' \
+  'https://yourdomain.commercelayer.io/api/orders/yzkWXfgHQS?include=line_items&fields[orders]=number,skus_count,formatted_subtotal_amount,formatted_discount_amount,formatted_shipping_amount,formatted_total_tax_amount,formatted_gift_card_amount,formatted_total_amount_with_taxes&fields[line_items]=item_type,image_url,name,sku_code,formatted_unit_amount,quantity,formatted_total_amount,line_items' \
   -H 'Accept: application/vnd.api+json' \
   -H 'Authorization: Bearer your-access-token'
 ```
@@ -52,6 +52,32 @@ On success, the API responds with a `200 OK` status code, returning the order ob
       "formatted_total_tax_amount": "168.60€",
       "formatted_gift_card_amount": "-50.00€",
       "formatted_total_amount_with_taxes": "718.70€"
+    },
+    "relationships": {
+      "line_items": {
+        "links": {...},
+        "data": [
+          {
+            "type": "line_items",
+            "id": "aBmNkPQRst"
+          },
+          {
+            "type": "line_items",
+            "id": "kXBqtVaYMN"
+          },
+          {
+            "type": "line_items",
+            "id": "ypQptRQABk"
+          },
+          {
+            "type": "line_items",
+            "id": "yaoMtJoqjv"
+          },
+          {
+            "other": "... line items (different item types)"
+          }
+        ]
+      }
     },
     "meta": {
       "mode": "test"
