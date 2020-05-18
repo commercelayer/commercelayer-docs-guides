@@ -8,7 +8,7 @@ description: How to select a shipping method for each of the order shipments
 
 You have a pending order and you want to give your customer the possibility to select a shipping method for each of the order shipments.
 
-![A sample shipping method selection](../.gitbook/assets/select-shipping-method-cover.jpg)
+![A sample shipping method selection](../.gitbook/assets/select-shipping-method-cover%20%281%29.jpg)
 
 ## Solution
 

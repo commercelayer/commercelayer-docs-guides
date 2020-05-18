@@ -8,7 +8,7 @@ description: How to select a payment method for the order
 
 You have a pending order and you want to give your customer the possibility to select a payment method.
 
-![A sample payment method selection](../.gitbook/assets/select-payment-method-cover.jpg)
+![A sample payment method selection](../.gitbook/assets/select-payment-method-cover%20%281%29.jpg)
 
 ## Solution
 
@@ -376,7 +376,7 @@ On success, the API responds with a `200 OK` status code, returning the updated 
 
 The image below shows how the related action during the checkout process is mapped to a specific attribute of the order object.
 
-![A sample payment method selection mapping](../.gitbook/assets/select-payment-method-mapping.jpg)
+![A sample payment method selection mapping](../.gitbook/assets/select-payment-method-mapping%20%281%29.jpg)
 
 ## Additional notes
 

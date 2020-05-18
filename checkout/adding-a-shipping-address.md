@@ -8,7 +8,7 @@ description: How to add a shipping address to the order
 
 You need to add a shipping address to a draft order. For example, you've added a billing address to an order but you don't want to use the same address for shipping.
 
-![A sample company shipping address form](../.gitbook/assets/shipping-address-cover.jpg)
+![A sample company shipping address form](../.gitbook/assets/shipping-address-cover%20%283%29.jpg)
 
 ## Solution
 
@@ -262,7 +262,7 @@ The image below shows how each of fields of a typical shipping address form is m
 
 When checking out an order as a logged customer — i.e. with a customer access token — you might want to give them the possibility to select a shipping address from their address book instead of creating a new address. 
 
-![A sample address book selection mapping](../.gitbook/assets/select-shipping-address-mapping.jpg)
+![A sample address book selection mapping](../.gitbook/assets/select-shipping-address-mapping%20%281%29.jpg)
 
 In this case, first you need to retrieve the list of the customer addresses, and then associate the selected one with the order.
 

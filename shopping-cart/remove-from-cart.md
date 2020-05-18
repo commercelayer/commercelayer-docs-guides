@@ -8,7 +8,7 @@ description: How to remove an item from your shopping cart
 
 You have some items in your shopping cart and you want to remove one of them. 
 
-![A sample cart item removal](../.gitbook/assets/remove-from-cart-cover.jpg)
+![A sample cart item removal](../.gitbook/assets/remove-from-cart-cover%20%281%29.jpg)
 
 ## Solution
 

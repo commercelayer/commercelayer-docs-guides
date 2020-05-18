@@ -95,7 +95,7 @@ On success, the API responds with a `200 OK` status code, returning the line ite
 
 The image below shows how the related action on the product quantity is mapped to a specific attribute of the line item object.
 
-![A sample cart quantity update mapping](../.gitbook/assets/update-cart-quantities-mapping.jpg)
+![A sample cart quantity update mapping](../.gitbook/assets/update-cart-quantities-mapping%20%282%29.jpg)
 
 ## More to read
 

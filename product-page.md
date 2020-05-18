@@ -8,7 +8,7 @@ description: How to display price and availability on a product page
 
 You've created a product page with your favorite CMS and now you want to display the price and the availability of the selected product. You also need to implement the "add to cart" function on the related button.
 
-![A sample product page](.gitbook/assets/product-page-cover%20%281%29.jpg)
+![A sample product page](.gitbook/assets/product-page-cover.jpg)
 
 ## Solution
 
@@ -219,7 +219,7 @@ To implement the "add to cart" function, please refer to this guide:
 
 The image below shows the three main dynamic elements of the page \(selling price, full price and inventory information\) and how each of these are mapped to a specific field of the SKU or price objects.
 
-![A sample product page mapping](.gitbook/assets/product-page-mapping.jpg)
+![A sample product page mapping](.gitbook/assets/product-page-mapping%20%281%29.jpg)
 
 ## Additional notes
 

@@ -165,7 +165,7 @@ On success, the API responds with a `200 OK` status code, returning the updated 
 
 The image below shows how the related field of an email form is mapped to a specific attribute of the order object.
 
-![](../.gitbook/assets/customer-email-mapping%20%281%29.jpg)
+![A sample customer email form field mapping](../.gitbook/assets/customer-email-mapping%20%281%29.jpg)
 
 ## Logged customers
 

@@ -8,7 +8,7 @@ description: How to display prices for a list of products
 
 You've created a product listing page \(i.e. category or collection page\) with your favorite CMS and now you want to display the price for each of the products. You have the SKU codes of the products you want to list. 
 
-![A sample product listing page](.gitbook/assets/product-listing-page-cover.jpg)
+![A sample product listing page](.gitbook/assets/product-listing-page-cover%20%281%29.jpg)
 
 ## Solution
 
