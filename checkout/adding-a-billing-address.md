@@ -108,7 +108,7 @@ On success, the API responds with a `201 Created` status code, returning the cre
 
 {% tabs %}
 {% tab title="Request" %}
-The following request associated the address identified by the "BgnguJvXmb" ID with the order ideintified by the "NgojhKoyYN" ID:
+The following request associates the address identified by the "BgnguJvXmb" ID with the order identified by the "NgojhKoyYN" ID:
 
 ```javascript
 curl -X PATCH \

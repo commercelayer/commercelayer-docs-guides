@@ -29,7 +29,7 @@ These are the main guides that are currently available. Explore the left menu fo
 
 {% page-ref page="checkout/" %}
 
-{% page-ref page="payments.md" %}
+{% page-ref page="payments/" %}
 
 ## Ask for more!
 

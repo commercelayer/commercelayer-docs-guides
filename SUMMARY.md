@@ -4,6 +4,8 @@
 
 ## Guides
 
+---
+
 * [Product listing page](product-listing-page.md)
 * [Product page](product-page.md)
 * [Shopping cart](shopping-cart/README.md)
@@ -21,5 +23,21 @@
   * [Adding a payment source](checkout/adding-a-payment-source.md)
   * [Adding a gift card or coupon](checkout/adding-a-gift-card-or-coupon.md)
   * [Placing the order](checkout/placing-the-order.md)
-* [Payments](payments.md)
+* [Payments](payments/README.md)
+  * [Braintree](payments/braintree/README.md)
+    * [Adding a Braintree payment source](payments/braintree/adding-a-braintree-payment-source.md)
+    * [Sending back the payment method nonce](payments/braintree/sending-back-the-payment-method-nonce.md)
+  * [Stripe](payments/stripe/README.md)
+    * [Adding a Stripe payment source](payments/stripe/adding-a-stripe-payment-source.md)
+  * [Adyen](payments/adyen/README.md)
+    * [Adding an Adyen payment source](payments/adyen/adding-an-adyen-payments-source.md)
+    * [Sending back the payment details](payments/adyen/sending-back-the-payment-details.md)
+    * [Authorizing the payment source](payments/adyen/authorizing-the-payment-source.md)
+  * [PayPal](payments/paypal/README.md)
+    * [Adding a PayPal payment source](payments/paypal/adding-a-paypal-payment-source.md)
+    * [Preparing the payment for execution](payments/paypal/preparing-the-payment-for-execution.md)
+  * [Manual payments](payments/manual-payments/README.md)
+    * [Adding a wire transfer payment source](payments/manual-payments/adding-a-wire-transfer-payment-source.md)
+  * [External payments](payments/external-payments/README.md)
+    * [Adding an external payment source](payments/external-payments/adding-an-external-payment-source.md)
 

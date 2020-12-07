@@ -392,7 +392,7 @@ For example, if you want to collect credit card payments with Stripe, the paymen
 
 For more details, please refer to the payments guide.
 
-{% page-ref page="../payments.md" %}
+{% page-ref page="../payments/" %}
 
 ## More to read
 
