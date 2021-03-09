@@ -380,7 +380,7 @@ The image below shows the two main dynamic elements of the page \(selling price 
 
 #### Available products and "Add to cart" button
 
-To be _sellable_ in a market, an SKU must have a price in one of the market's price list and at least one stock item in one of the market's stock location, regardless of its quantity. This means that out of stock items are still considered _sellable_ but they are not _available_, and would return an error when trying to add them to cart.
+To be _sellable_ in a market, an SKU must have a price in the market's price list and at least one stock item in one of the market's stock location, regardless of its quantity. This means that out of stock items are still considered _sellable_ but they are not _available_, and would return an error when trying to add them to cart.
 
 If you want to display the _available_ products only and show an "Add to cart" button instead of a "View details" one, we recommend you to refine the above request with an additional filter to make sure that the returned SKUs have an available quantity.
 
