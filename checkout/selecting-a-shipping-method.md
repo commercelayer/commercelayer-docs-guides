@@ -12,7 +12,7 @@ You have a pending order and you want to give your customer the possibility to s
 
 ## Solution
 
-Within Commerce Layer, an order can have many shipments and each shipment must have a valid shipping method before the order can be placed. To let the customer select a shipping method, first you need to to get the list of available shipping methods for the order shipments and display them to the customer. Then you can associate the selected shipping method with the shipment. To do that:
+Within Commerce Layer, an order can have many shipments and each shipment must have a valid shipping method before the order can be placed. To let the customer select a shipping method, first you need to get the list of available shipping methods for the order shipments and display them to the customer. Then you can associate the selected shipping method with the shipment. To do that:
 
 1. Send a `GET` request to the `/api/orders/:id/shipments` endpoint, including the associated `available_shipping_methods`. 
 2. Send a `PATCH` request to the `/api/shipments/:id` endpoint, setting its `shipping_method` relationship.
