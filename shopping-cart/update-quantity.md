@@ -56,7 +56,7 @@ On success, the API responds with a `200 OK` status code, returning the line ite
       "unit_amount_float": 129.0,
       "formatted_unit_amount": "129,00€",
       "options_amount_cents": 0,
-      "options_amount_float": 0,
+      "options_amount_float": 0.0,
       "formatted_options_amount": "$0.00",
       "total_amount_cents": 77400,
       "total_amount_float": 774.0,
