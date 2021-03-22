@@ -388,7 +388,7 @@ When redeeming a gift card, it is possible that the order amount due goes to zer
 
 Each payment method has a `payment_source_type` attribute which determines the type of payment source that can be used to pay for the order. Many payment source types are strictly related to a specific payment gateway, rather than a payment instrument type. 
 
-For example, if you want to collect credit card payments with Stripe, the payment source type is `StripePayment,` rather than something like _CreditCard_. This lets you leverage the Stripe APIs, official libraries and documentation to build the integration on the client side, while using Commerce Layer as you server side endpoint. 
+For example, if you want to collect credit card payments with Stripe, the payment source type is `stripe_payment`, rather than something like "CreditCard". This lets you leverage the Stripe APIs, official libraries, and documentation to build the integration on the client-side while using Commerce Layer as your server-side endpoint. 
 
 For more details, please refer to the payments guide.
 

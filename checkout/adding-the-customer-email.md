@@ -169,7 +169,7 @@ The image below shows how the related field of an email form is mapped to a spec
 
 ## Logged customers
 
-In case you checkout an order with a logged customer — i.e. using a customer token — the customer associated to the order is forced to be the same as the customer associated to the token and there is no way to explicitly change it. So all you need to do to associate the logged customer to the order is send a `PATCH` request to the `/api/orders/:id` endpoint, with empty attributes.
+In case you checkout an order with a logged customer — i.e. using a customer token — the customer associated with the order is forced to be the same as the customer associated to the token and there is no way to explicitly change it. So all you need to do to associate the logged customer to the order is send a `PATCH` request to the `/api/orders/:id` endpoint, with empty attributes.
 
 ## Additional notes
 
@@ -183,5 +183,5 @@ When you add a customer to a `draft` order, the order status changes to `pending
 
 ## More to read
 
-See our API reference if you need more information on how to [update an order](https://docs.commercelayer.io/api/resources/orders/update_order), [get a customer token](https://docs.commercelayer.io/api/authentication/password) or [create a subscription](https://docs.commercelayer.io/api/resources/customer_subscriptions/create_customer_subscription).
+See our API reference if you need more information on how to [update an order](https://docs.commercelayer.io/api/resources/orders/update_order), [get a customer token](https://docs.commercelayer.io/api/authentication/password), or [create a subscription](https://docs.commercelayer.io/api/resources/customer_subscriptions/create_customer_subscription).
 

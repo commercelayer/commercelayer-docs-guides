@@ -81,7 +81,7 @@ On success, the API responds with a `200 OK` status code, returning the updated 
 
 ## More to read
 
-See our API reference if you need more information on how to [update a PayPal payment](https://docs.commercelayer.io/api/resources/paypal_payments/update_paypal_payment). See our Checkout guide for more details on how to  place an order.
+See our API reference if you need more information on how to [update a PayPal payment](https://docs.commercelayer.io/api/resources/paypal_payments/update_paypal_payment). See our Checkout guide for more details on how to place an order.
 
 {% page-ref page="../../checkout/placing-the-order.md" %}
 

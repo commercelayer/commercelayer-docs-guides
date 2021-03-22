@@ -100,8 +100,8 @@ On success, the API responds with a `200 OK` status code, returning the requeste
         "price_amount_cents": 0,
         "price_amount_float": 0.0,
         "formatted_price_amount": "€0,00",
-        "created_at": "2017-10-10T08:03:55.551Z",
-        "updated_at": "2020-01-20T15:31:34.779Z",
+        "created_at": "2018-01-01T12:00:00.000Z",
+        "updated_at": "2018-01-01T12:00:00.000Z",
         "reference": "",
         "reference_origin": null,
         "metadata": {}

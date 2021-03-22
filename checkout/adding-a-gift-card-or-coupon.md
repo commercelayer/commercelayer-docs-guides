@@ -15,14 +15,14 @@ You have a pending order and you want to give your customer the possibility to a
 To add a gift card or coupon code to an order, send a `PATCH` request to the `/api/orders/:id` endpoint, setting the `gift_card_or_coupon_code` attribute to the desired value. If an active gift card or coupon code matches that value — with at least the first 8 digits — the order amounts are updated according to the associated gift card balance or coupon discount.
 
 {% hint style="info" %}
-In the unlikely event that both a gift card and a coupon code match the same code, the gift card takes the precedence.
+In the unlikely event that both a gift card and a coupon code match the same code, the gift card takes precedence.
 {% endhint %}
 
 ### Example
 
 {% tabs %}
 {% tab title="Request" %}
- The following request add the gift card identified by the "GIFT1234-ABC" code to the order identified by the "NgojhKoyYN" ID:
+ The following request adds the gift card identified by the "GIFT1234-ABC" code to the order identified by the "NgojhKoyYN" ID:
 
 ```javascript
 curl -X PATCH \

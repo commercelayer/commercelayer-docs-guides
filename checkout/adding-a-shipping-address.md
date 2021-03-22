@@ -108,7 +108,7 @@ On success, the API responds with a `201 Created` status code, returning the cre
 
 {% tabs %}
 {% tab title="Request" %}
-The following request associated the address identified by the "YWoeluJjEB" ID with the order ideintified by the "NgojhKoyYN" ID:
+The following request associated the address identified by the "YWoeluJjEB" ID with the order identified by the "NgojhKoyYN" ID:
 
 ```javascript
 curl -X PATCH \
@@ -254,7 +254,7 @@ On success, the API responds with a `200 OK` status code, returning the updated 
 
 ### Mapping
 
-The image below shows how each of fields of a typical shipping address form is mapped to a specific field of the address or order objects.
+The image below shows how each field of a typical shipping address form is mapped to a specific field of the address or order objects.
 
 ![A sample company shipping address form field mapping](../.gitbook/assets/new-shipping-address-mapping.jpg)
 
@@ -511,7 +511,7 @@ On success, the API responds with a `200 OK` status code, returning the updated 
       "tax_rate": 0.2,
       "freight_taxable": true,
       "requires_billing_info": true,
-      "country_code": IT,
+      "country_code": "IT",
       "shipping_country_code_lock": null,
       "coupon_code": "COUPON12-345",
       "gift_card_code": null,
@@ -786,5 +786,5 @@ On success, the API responds with a `200 OK` status code, returning the updated 
 
 ## More to read
 
-See our API reference if you need more information on how to [create an address](https://docs.commercelayer.io/api/resources/addresses/create_address), [list customer addresses](https://docs.commercelayer.io/api/resources/customer_addresses/list_customer_addresses), [update an order](https://docs.commercelayer.io/api/resources/orders/update_order), [get a customer token](https://docs.commercelayer.io/api/authentication/password) or [include associations](https://docs.commercelayer.io/api/including-associations).
+See our API reference if you need more information on how to [create an address](https://docs.commercelayer.io/api/resources/addresses/create_address), [list customer addresses](https://docs.commercelayer.io/api/resources/customer_addresses/list_customer_addresses), [update an order](https://docs.commercelayer.io/api/resources/orders/update_order), [get a customer token](https://docs.commercelayer.io/api/authentication/password), or [include associations](https://docs.commercelayer.io/api/including-associations).
 

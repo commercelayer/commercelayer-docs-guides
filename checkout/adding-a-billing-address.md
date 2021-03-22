@@ -264,7 +264,7 @@ When checking out an order as a logged customer — i.e. with a customer access 
 
 ![A sample address book selection mapping](../.gitbook/assets/select-billing-address-mapping.jpg)
 
-In this case, you first need to retrieve the list of the customer addresses, and then associate the selected one with the order.
+In this case, you first need to retrieve the list of the customer addresses and then associate the selected one with the order.
 
 To do that:
 
@@ -786,5 +786,5 @@ On success, the API responds with a `200 OK` status code, returning the updated 
 
 ## More to read
 
-See our API reference if you need more information on how to [create an address](https://docs.commercelayer.io/api/resources/addresses/create_address), [list customer addresses](https://docs.commercelayer.io/api/resources/customer_addresses/list_customer_addresses), [update an order](https://docs.commercelayer.io/api/resources/orders/update_order), [get a customer token](https://docs.commercelayer.io/api/authentication/password) or [include associations](https://docs.commercelayer.io/api/including-associations).
+See our API reference if you need more information on how to [create an address](https://docs.commercelayer.io/api/resources/addresses/create_address), [list customer addresses](https://docs.commercelayer.io/api/resources/customer_addresses/list_customer_addresses), [update an order](https://docs.commercelayer.io/api/resources/orders/update_order), [get a customer token](https://docs.commercelayer.io/api/authentication/password), or [include associations](https://docs.commercelayer.io/api/including-associations).
 

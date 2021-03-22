@@ -10,7 +10,7 @@ Typically, every payment gateway integration process consists of two main stages
 For security and compliance reasons, **Commerce Layer never touches credit card data**.
 {% endhint %}
 
-Specifically, the payment details are collected, tokenized — or encrypted — and sent to the payment service on the client-side, leveraging the SDKs and libraries provided by the service itself \(i.e. Commerce Layer always receives a token — never stores, for instance, any credit card information\). On the other hand, our platform takes care of all the server-side part of the process, offering an out-of-the-box integration with the most common payment gateways.
+Specifically, the payment details are collected, tokenized — or encrypted — and sent to the payment service on the client-side, leveraging the SDKs and libraries provided by the service itself \(i.e. Commerce Layer always receives a token — never stores, for instance, any credit card information\). On the other hand, our platform takes care of all the server-side parts of the process, offering an out-of-the-box integration with the most common payment gateways.
 
 This guide will walk you through the different steps you need to follow in order to let your customers process their payments using the payment method they selected and its corresponding payment gateway or service.
 

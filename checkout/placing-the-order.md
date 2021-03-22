@@ -172,9 +172,9 @@ After an order has been successfully placed, the following actions are performed
 * The usage count of any associated promotion is incremented
 * The usage count of any associated coupon is incremented
 * The usage count of any associated gift card is incremented
-* The status of any associated single-use gift card is se to `redeemed`
+* The status of any associated single-use gift card is set to `redeemed`
 
 ## More to read
 
-See our API reference if you need more information about the [stock item](https://docs.commercelayer.io/api/resources/stock_items), [shipment](https://docs.commercelayer.io/api/resources/shipments) and [gift card](https://docs.commercelayer.io/api/resources/gift_cards) objects or on how to [update an order](https://docs.commercelayer.io/api/resources/orders/update_order).
+See our API reference if you need more information about the [stock item](https://docs.commercelayer.io/api/resources/stock_items), [shipment](https://docs.commercelayer.io/api/resources/shipments), and [gift card](https://docs.commercelayer.io/api/resources/gift_cards) objects or on how to [update an order](https://docs.commercelayer.io/api/resources/orders/update_order).
 

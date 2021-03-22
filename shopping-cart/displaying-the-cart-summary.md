@@ -15,14 +15,14 @@ You want to display an order summary to your customer, including the order line 
 To retrieve the list of line items that compose an order summary, send a `GET` request to the `/api/orders/:id` endpoint and include its line items.
 
 {% hint style="info" %}
-To get a faster response and less data to parse, we recommend requesting only the fields you need to show in the cart summary. 
+To get a faster response and fewer data to parse, we recommend requesting only the fields you need to show in the cart summary. 
 {% endhint %}
 
 ### Example
 
 {% tabs %}
 {% tab title="Request" %}
-The following request fetches the list of line items associated to the order identified by the "yzkWXfgHQS" ID, with a specific selection of the fields you need to show in the cart summary:
+The following request fetches the list of line items associated with the order identified by the "yzkWXfgHQS" ID, with a specific selection of the fields you need to show in the cart summary:
 
 ```javascript
 curl -X GET \
@@ -179,9 +179,9 @@ The image below shows how each of the elements of the shopping cart is mapped to
 
 #### Filtering by item type
 
-You may have noticed the pseudo-code `{ "other": "... line items (different item types)" }` in the response. That's because the above request fetches **all** the line items associated with the order \(SKUs, shipments, payment methods and promotions\). If you plan to use only some of them, remember to properly filter them through some client-side logic based on their `item_type` attribute.
+You may have noticed the pseudo-code `{ "other": "... line items (different item types)" }` in the response. That's because the above request fetches **all** the line items associated with the order \(SKUs, shipments, payment methods, and promotions\). If you plan to use only some of them, remember to properly filter them through some client-side logic based on their `item_type` attribute.
 
 ## More to read
 
-See our API reference if you need more information on how to [retrieve an order](https://docs.commercelayer.io/api/resources/orders/retrieve_order). For further details on how use `include` and `fields` queries in your request, see [Including associations](https://docs.commercelayer.io/api/including-associations) and [sparse fieldset](https://docs.commercelayer.io/api/sparse-fieldsets). 
+See our API reference if you need more information on how to [retrieve an order](https://docs.commercelayer.io/api/resources/orders/retrieve_order). For further details on how to use `include` and `fields` queries in your request, see [Including associations](https://docs.commercelayer.io/api/including-associations) and [sparse fieldset](https://docs.commercelayer.io/api/sparse-fieldsets). 
 

@@ -29,7 +29,7 @@ curl -X PATCH \
     "type": "adyen_payments",
     "id": "emdEKhoOMA",
     "attributes": {
-      "_authorize": 1
+      "_authorize": true
     }
   }
 }'

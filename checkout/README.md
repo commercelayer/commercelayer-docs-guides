@@ -8,5 +8,5 @@ The checkout process is the process that a customer must go through when purchas
 
 ![A sample checkout flow](../.gitbook/assets/checkout-cart-summary.jpg)
 
-This guide will walk you through all the actions that you generally need to implement when building a **custom checkout experience** for your customers. We recommend you to have a look at our [open source checkout application](https://github.com/commercelayer/commercelayer-checkout) for a fully functional, production-ready reference.
+This guide will walk you through all the actions that you generally need to implement when building a **custom checkout experience** for your customers. We recommend you to have a look at our [open-source checkout application](https://github.com/commercelayer/commercelayer-checkout) for a fully functional, production-ready reference.
 
