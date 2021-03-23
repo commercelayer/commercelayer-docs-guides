@@ -183,7 +183,7 @@ You may have noticed the pseudo-code `{ "other": "... line items (different item
 
 #### Showing the payment method cost
 
-Commerce Layer supports the option for payment methods to have a cost. If that's your case and you want to display the sum of all the payment method costs in the cart summary, remember to add also the `formatted_payment_method_amount` order's field in the [API call above](displaying-the-cart-summary.md#example). 
+Commerce Layer supports the option for payment methods to have a cost. If that's your case and you want to display it in the cart summary, remember to add also the `formatted_payment_method_amount` order's field in the [API call above](displaying-the-cart-summary.md#example). 
 
 ## More to read
 
