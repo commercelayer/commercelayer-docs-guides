@@ -27,7 +27,7 @@ Then you have just to update the order with the `_place` attribute in order to c
 {% page-ref page="../../checkout/placing-the-order.md" %}
 
 {% hint style="info" %}
-Upon successful response by Braintree, the order will be captured and approved automatically, since the transaction it's already settled by the local payment gateway chosen by the customer.
+Upon successful response by Braintree, the order will be captured and approved automatically, since the transaction is already settled by the local payment gateway chosen by the customer.
 {% endhint %}
 
 ### Customers leaving your site after payment
