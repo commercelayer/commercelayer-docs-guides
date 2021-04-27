@@ -56,6 +56,8 @@ On success, the API responds with a `200 OK` status code, returning the updated 
     "attributes": {
       "client_token": "xxxx.yyyy.zzzz==",
       "payment_method_nonce": "aaaaaa-bbb-ccc-ddd-eeeeee",
+      "payment_id": null,
+      "local": false,
       "options": {},
       "created_at": "2018-01-01T12:00:00.000Z",
       "updated_at": "2018-01-01T12:00:00.000Z",

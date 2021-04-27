@@ -2,7 +2,7 @@
 description: How to add a Braintree payment source to an order
 ---
 
-# Adding a Braintree payment source
+# Adding a payment source
 
 ## Problem
 
@@ -158,6 +158,8 @@ On success, the API responds with a `201 Created` status code, returning the cre
     "attributes": {
       "client_token": "xxxx.yyyy.zzzz",
       "payment_method_nonce": null,
+      "payment_id": null,
+      "local": false,
       "options": {},
       "created_at": "2018-01-01T12:00:00.000Z",
       "updated_at": "2018-01-01T12:00:00.000Z",
