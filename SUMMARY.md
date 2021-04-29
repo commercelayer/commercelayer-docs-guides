@@ -31,7 +31,6 @@
   * [Stripe](payments/stripe/README.md)
     * [Adding a Stripe payment source](payments/stripe/adding-a-stripe-payment-source.md)
   * [Adyen](payments/adyen/README.md)
-    * [Untitled](payments/adyen/untitled.md)
     * [Adding an Adyen payment source](payments/adyen/adding-an-adyen-payments-source.md)
     * [Sending back the payment details](payments/adyen/sending-back-the-payment-details.md)
     * [Authorizing the payment source](payments/adyen/authorizing-the-payment-source.md)
