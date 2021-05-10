@@ -2,7 +2,7 @@
 description: How to add an Checkout.com payment source to an order
 ---
 
-# Adding a Checkout.com payment source
+# Adding the payment source
 
 ## Problem
 

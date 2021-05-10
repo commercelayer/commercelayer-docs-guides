@@ -2,7 +2,7 @@
 description: How to add a Braintree payment source to an order
 ---
 
-# Adding a payment source
+# Adding the payment source
 
 ## Problem
 

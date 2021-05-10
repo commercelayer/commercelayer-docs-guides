@@ -2,7 +2,7 @@
 description: How to add a PayPal payment source to an order
 ---
 
-# Adding a PayPal payment source
+# Adding the payment source
 
 ## Problem
 

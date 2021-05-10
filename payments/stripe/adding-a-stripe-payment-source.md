@@ -2,7 +2,7 @@
 description: How to add a Stripe payment source to an order
 ---
 
-# Adding a Stripe payment source
+# Adding the payment source
 
 ## Problem
 

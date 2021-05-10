@@ -2,7 +2,7 @@
 description: How to add an Adyen payment source to an order
 ---
 
-# Adding an Adyen payment source
+# Adding the payment source
 
 ## Problem
 
