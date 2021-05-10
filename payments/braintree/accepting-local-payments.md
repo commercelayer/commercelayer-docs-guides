@@ -12,7 +12,7 @@ You want to allow your customers to checkout with the Braintree-supported [local
 
 The first steps to setup local payments are similar to the standard ones, with the only notable difference you need to set the `local`  attribute as `true` when you create the payment source.
 
-{% page-ref page="braintree/adding-a-braintree-payment-source.md" %}
+{% page-ref page="adding-a-braintree-payment-source.md" %}
 
 After that, paths differ based on two possible scenarios — whether the customer is [returning to your checkout](accepting-local-payments.md#customer-returning-to-your-checkout) or [not](accepting-local-payments.md#customers-leaving-your-site-after-payment).
 
@@ -20,11 +20,11 @@ After that, paths differ based on two possible scenarios — whether the custome
 
 Assuming the customer goes back to your checkout application, you need to update the payment source with the `payment_method_nonce` returned by Braintree as with standard payments. 
 
-{% page-ref page="braintree/sending-back-the-payment-method-nonce.md" %}
+{% page-ref page="sending-back-the-payment-method-nonce.md" %}
 
 Then you have just to update the order with the `_place` attribute in order to complete the payment. 
 
-{% page-ref page="../checkout/placing-the-order.md" %}
+{% page-ref page="../../checkout/placing-the-order.md" %}
 
 {% hint style="info" %}
 Upon successful response by Braintree, the order will be captured and approved automatically, since the transaction is already settled by the local payment gateway chosen by the customer.
