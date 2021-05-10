@@ -205,7 +205,7 @@ Checkout.com payments require a token ****that represents the customer's encrypt
 Checkout.com payments are asynchronous, which means the payment result it's notified by calling a webhook on Commerce Layer and updating the payment source data accordingly. 
 
 {% hint style="info" %}
-Webhooks creation and notification are managed by Commerce Layer and Checkot.com internally, you do not need any configuration on your side.
+Webhooks creation and notification are managed by Commerce Layer and Checkout.com internally, you do not need any configuration on your side.
 {% endhint %}
 
 ## More to read
