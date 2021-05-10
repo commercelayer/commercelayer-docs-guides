@@ -18,13 +18,15 @@ This guide will walk you through the different steps you need to follow in order
 
 These are the payment gateways and services Commerce Layer is currently integrated with. Most of them are compliant with the PSD2 European regulation so that you can implement a payment flow that supports SCA and 3DS2. As anticipated, each of them has its own integration pattern. For details and examples of how to implement the payment flow in any of these cases, see the related sections.
 
-{% page-ref page="braintree/" %}
-
-{% page-ref page="stripe/" %}
-
 {% page-ref page="adyen/" %}
 
+{% page-ref page="braintree/" %}
+
+{% page-ref page="checkout.com/" %}
+
 {% page-ref page="paypal/" %}
+
+{% page-ref page="stripe/" %}
 
 {% page-ref page="manual-payments/" %}
 

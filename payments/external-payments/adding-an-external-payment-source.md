@@ -191,6 +191,12 @@ On success, the API responds with a `201 Created` status code, returning the cre
 {% endtab %}
 {% endtabs %}
 
+## Additional notes
+
+#### Asynchronous payments
+
+Commerce Layer provides the option to mark your external payments as **asynchronous**. See our [official documentation](https://docs.commercelayer.io/api/external-resources/external-payment-gateways#asynchronous-payments) for more informations.
+
 ## More to read
 
 See our API reference if you need more information on how to [retrieve an order](https://docs.commercelayer.io/api/resources/orders/retrieve_order), [include associations](https://docs.commercelayer.io/api/including-associations), or [create an external payment](https://docs.commercelayer.io/api/resources/external_payments/create_external_payment). See our Checkout guide for more details on how to place an order.
