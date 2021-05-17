@@ -160,6 +160,7 @@ On success, the API responds with a `201 Created` status code, returning the cre
     },
     "attributes": {
       "client_secret": "xxxx_secret_yyyy",
+      "stripe_id": "pi_1EywT4IyIXehwXjkgKr5xd6b",
       "options": {},
       "created_at": "2018-01-01T12:00:00.000Z",
       "updated_at": "2018-01-01T12:00:00.000Z",

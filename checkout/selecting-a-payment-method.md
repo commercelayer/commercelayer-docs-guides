@@ -140,6 +140,9 @@ On success, the API responds with a `200 OK` status code, returning the requeste
           }
         ]
       },
+      "available_customer_payment_sources": {
+        "links": {...}
+      },
       "payment_method": {
         "links": {...}
       },
@@ -348,6 +351,9 @@ On success, the API responds with a `200 OK` status code, returning the updated 
         "links": {...}
       },
       "available_payment_methods": {
+        "links": {...}
+      },
+      "available_customer_payment_sources": {
         "links": {...}
       },
       "payment_method": {

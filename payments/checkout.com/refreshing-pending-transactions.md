@@ -1,22 +1,26 @@
 ---
-description: How to collect payment details from Checkout.com
+description: How to refresh the status of pending transactions
 ---
 
-# Getting the payment details
+# Refreshing pending transactions
 
 ## Problem
 
-Your customer has submitted credit card information to Checkout.com and has already authenticated through 3DS upon the authorization process. You now need to collect the details of the authorization which are used to update the payment.
+You have created a transaction request — [Authorization](https://docs.commercelayer.io/api/resources/authorizations), [Capture](https://docs.commercelayer.io/api/resources/captures), [Void](https://docs.commercelayer.io/api/resources/voids), or [Refund](https://docs.commercelayer.io/api/resources/refunds) — to Checkout.com, which is still pending. You want to refresh its status to check if it gets approved.
 
 ## Solution
 
-To fetch the details of the payment, send a `PATCH` request to the `/api/checkout_com_payments/:id` endpoint, setting the `_details` attribute to `true` and passing the `session_id` parameter you've got from the [3DS page](authorizing-the-payment-source.md#3d-secure-authentication). You can check the output of the authorization in the `payment_response` attribute of the response.
+Checkout.com transactions are asynchronous. That means that once a transaction is created, it remains pending until the Checkout.com webhook updates it. If you want to update the status of the transaction, send a `PATCH` request to the `/api/checkout_com_payments/:id` endpoint, setting the `_refresh` attribute to `true`. 
+
+{% hint style="info" %}
+This request will try to refresh any pending transactions and can be used as a fallback strategy in case the Checkout.com webhook isn't fired.
+{% endhint %}
 
 ### Example
 
 {% tabs %}
 {% tab title="Request" %}
-The following request updates the Checkout.com payment source identified by the "emdEKhoOMA" ID to get the authorization details from Checkout.com:
+The following request updates the Checkout.com payment source identified by the "emdEKhoOMA" ID to refresh any pending transactions:
 
 ```javascript
 curl -X PATCH \
@@ -29,8 +33,7 @@ curl -X PATCH \
     "type": "checkout_payments",
     "id": "emdEKhoOMA",
     "attributes": {
-      "_details": true,
-      "session_id": "sid_y3oqhf46pyzuxjbcn2giaqnb44"
+      "_refresh": true
     }
   }
 }'
@@ -38,7 +41,7 @@ curl -X PATCH \
 {% endtab %}
 
 {% tab title="Response" %}
-On success, the API responds with a `200 OK` status code, returning the updated Adyen payment object:
+On success, the API responds with a `200 OK` status code, returning the updated Checkout.com payment object:
 
 ```javascript
 {
@@ -153,4 +156,6 @@ On success, the API responds with a `200 OK` status code, returning the updated 
 ## More to read
 
 See our API reference if you need more information on how to [update a Checkout.com payment](https://docs.commercelayer.io/api/resources/checkout_com_payments/update_checkout_com_payment). See our Checkout guide for more details on how to place an order.
+
+{% page-ref page="../../checkout/" %}
 

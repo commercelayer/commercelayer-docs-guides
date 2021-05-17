@@ -162,6 +162,9 @@ On success, the API responds with a `201 Created` status code, returning the new
       "available_payment_methods": {
         "links": {...}
       },
+      "available_customer_payment_sources": {
+        "links": {...}
+      },
       "payment_method": {
         "links": {...}
       },
