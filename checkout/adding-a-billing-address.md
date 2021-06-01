@@ -8,7 +8,7 @@ description: How to add a billing address to the order
 
 You need to add a billing address to a draft order, for example as the first step of the order checkout flow. 
 
-![A sample personal billing address form](../.gitbook/assets/billing-address-cover%20%282%29.jpg)
+![A sample personal billing address form](../.gitbook/assets/billing-address-cover%20%283%29.jpg)
 
 ## Solution
 
@@ -257,15 +257,15 @@ On success, the API responds with a `201 Created` status code, returning the cre
 
 ### Mapping
 
-The image below shows how each of fields of a typical billing address form is mapped to a specific field of the address or order objects.
+The image below shows how each of the fields of a typical billing address form is mapped to a specific field of the address or order objects.
 
-![A sample personal billing address form field mapping](../.gitbook/assets/new-billing-address-mapping%20%284%29.jpg)
+![A sample personal billing address form field mapping](../.gitbook/assets/new-billing-address-mapping%20%286%29.jpg)
 
 ## Logged customers
 
 When checking out an order as a logged customer — i.e. with a customer access token — you might want to give them the possibility to select a billing address from their address book instead of creating a new address. 
 
-![A sample address book selection mapping](../.gitbook/assets/select-billing-address-mapping.jpg)
+![A sample address book selection mapping](../.gitbook/assets/select-billing-address-mapping%20%281%29.jpg)
 
 In this case, you first need to retrieve the list of the customer addresses and then associate the selected one with the order.
 

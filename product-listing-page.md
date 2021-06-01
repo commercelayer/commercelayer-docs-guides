@@ -8,7 +8,7 @@ description: How to display prices for a list of products
 
 You've created a product listing page \(i.e. category or collection page\) with your favorite CMS and now you want to display the price for each of the products. You have the SKU codes of the products you want to list. 
 
-![A sample product listing page](.gitbook/assets/product-listing-page-cover%20%281%29.jpg)
+![A sample product listing page](.gitbook/assets/product-listing-page-cover%20%282%29.jpg)
 
 ## Solution
 
@@ -386,7 +386,7 @@ This API call doesn't return any detail about the availability of the SKUs becau
 
 The image below shows the two main dynamic elements of the page \(selling price and full price\) and how each of these are mapped to a specific field of the price object.
 
-![A sample product listing page mapping](.gitbook/assets/product-listing-page-mapping.jpg)
+![A sample product listing page mapping](.gitbook/assets/product-listing-page-mapping%20%282%29.jpg)
 
 ## Additional notes
 

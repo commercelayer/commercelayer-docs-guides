@@ -8,7 +8,7 @@ description: How to update the quantity of an item in your shopping cart
 
 You have some items in your shopping cart and you want to update their quantity.
 
-![A sample cart quantity selection](../.gitbook/assets/update-cart-quantities-cover.jpg)
+![A sample cart quantity selection](../.gitbook/assets/update-cart-quantities-cover%20%282%29.jpg)
 
 ## Solution
 
@@ -95,7 +95,7 @@ On success, the API responds with a `200 OK` status code, returning the line ite
 
 The image below shows how the related action on the product quantity is mapped to a specific attribute of the line item object.
 
-![A sample cart quantity update mapping](../.gitbook/assets/update-cart-quantities-mapping%20%282%29.jpg)
+![A sample cart quantity update mapping](../.gitbook/assets/update-cart-quantities-mapping%20%283%29.jpg)
 
 ## More to read
 

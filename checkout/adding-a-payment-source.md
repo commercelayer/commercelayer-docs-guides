@@ -8,7 +8,7 @@ description: How to add a payment source to the order
 
 You have a pending order with a selected payment method and you want to give your customer the possibility to select a payment source — e.g. a credit card — to be used to pay for the order.
 
-![A sample payment source selection](../.gitbook/assets/select-payment-source-cover.jpg)
+![A sample payment source selection](../.gitbook/assets/select-payment-source-cover%20%282%29.jpg)
 
 ## Solution
 
@@ -24,7 +24,7 @@ To get the payment source type, send a `GET` request to the `/api/orders/:id` en
 
 To create the payment source object and associate it with the order, you need to send a `POST` request to an endpoint that is different for each payment source. That means you need to _dynamically_ build the request URL based on the `payment_source_type` attribute value of the selected payment — i.e.`/api/:payment_source_type` — and fill the request payload with the specific attributes required by each payment gateway and the relationship with the order.
 
-The structure of the payment source object you receive in the response will differ based on the specific payment source type, because each payment gateway or service has a different integration pattern. As a consequence of that, the subsequent payment flow will be dependent on the specific payment source that is associated with the order.
+The structure of the payment source object you receive in the response will differ based on the specific payment source type, because each payment gateway or service has a different integration pattern. As a consequence, the subsequent payment flow will be dependent on the specific payment source that is associated with the order.
 
 Please refer to the payments guide for detailed information and examples, according to the payment gateway you're using.
 

@@ -191,11 +191,11 @@ On success, the API responds with a `201 Created` status code, returning the new
 
 #### Market scope
 
-The new order will be automatically associated to the market embedded in the request access token, as its scope.
+The new order will be automatically associated with the market embedded in the request access token, as its scope.
 
 #### Empty carts
 
-For performance reasons, we strongly recommend to avoid dealing with empty carts and to create a new order right before adding the first line item to it.
+For performance reasons, we highly suggest you avoid dealing with empty carts — just create a new order right before adding the first line item to it.
 
 ## More to read
 

@@ -6,9 +6,9 @@ description: How to redeem a gift card or coupon by entering a code
 
 ## Problem
 
-You have a pending order and you want to give your customer the possibility to add a gift card or coupon code to the order, so that they get the associated discount.
+You have a pending order and you want to give your customer the possibility to add a gift card or coupon code to the order so that they get the associated discount.
 
-![A sample gift card redemption step in the checkout process](../.gitbook/assets/gift-card-coupon-cover.jpg)
+![A sample gift card redemption step in the checkout process](../.gitbook/assets/gift-card-coupon-cover%20%282%29.jpg)
 
 ## Solution
 
@@ -168,7 +168,7 @@ On success, the API responds with a `200 OK` status code, returning the updated 
 
 The image below shows how the related action during the checkout process is mapped to a specific attribute of the order object.
 
-![A sample gift card redemption mapping](../.gitbook/assets/gift-card-coupon-mapping.jpg)
+![A sample gift card redemption mappin](../.gitbook/assets/gift-card-coupon-mapping%20%282%29.jpg)
 
 ## Additional notes
 

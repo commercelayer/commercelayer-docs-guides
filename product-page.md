@@ -8,11 +8,11 @@ description: How to display price and availability on a product page
 
 You've created a product page with your favorite CMS and now you want to display the price and the availability of the selected product. You also need to implement the "add to cart" function on the related button.
 
-![A sample product page](.gitbook/assets/product-page-cover.jpg)
+![A sample product page](.gitbook/assets/product-page-cover%20%283%29.jpg)
 
 ## Solution
 
-To retrieve the price and availability of a SKU, send a `GET` request to the `/api/skus/:id` endpoint and include the associated prices.
+To retrieve the price and availability of an SKU, send a `GET` request to the `/api/skus/:id` endpoint and include the associated prices.
 
 ### Example
 
@@ -222,7 +222,7 @@ To implement the "add to cart" function, please refer to this guide:
 
 The image below shows the three main dynamic elements of the page \(selling price, full price and inventory information\) and how each of these are mapped to a specific field of the SKU or price objects.
 
-![A sample product page mapping](.gitbook/assets/product-page-mapping%20%281%29.jpg)
+![A sample product page mapping](.gitbook/assets/product-page-mapping%20%282%29.jpg)
 
 ## Additional notes
 
@@ -274,7 +274,7 @@ On success, the API responds with a `200 OK` status code, returning the single S
 
 #### Getting a list of SKU prices
 
-If you need to display the prices associated to a list of SKUs \(with no inventory information\) send a `GET` request to the `/api/skus` endpoint, filter it by code, and include the SKU prices.
+If you need to display the prices associated with a list of SKUs \(with no inventory information\) send a `GET` request to the `/api/skus` endpoint, filter it by code, and include the SKU prices.
 
 {% tabs %}
 {% tab title="Request" %}

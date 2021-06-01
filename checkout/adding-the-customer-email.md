@@ -8,14 +8,14 @@ description: How to add a customer to the order
 
 You need to add a customer to a draft order, for example as the first step of the order checkout flow. 
 
-![A sample customer email form](../.gitbook/assets/customer-email-cover.jpg)
+![A sample customer email form](../.gitbook/assets/customer-email-cover%20%282%29.jpg)
 
 ## Solution
 
 The easiest way to set the customer of an order is to change its `customer_email` attribute. To do that, send a `PATCH` request to the `/api/orders/:id` endpoint. 
 
 {% hint style="info" %}
-In case a customer with the same email address exists in your organization, that customer is associated with the order, otherwise a new customer is created.
+In case a customer with the same email address exists in your organization, that customer is associated with the order. Otherwise, a new customer is created.
 {% endhint %}
 
 ### Example
@@ -168,7 +168,7 @@ On success, the API responds with a `200 OK` status code, returning the updated 
 
 The image below shows how the related field of an email form is mapped to a specific attribute of the order object.
 
-![A sample customer email form field mapping](../.gitbook/assets/customer-email-mapping%20%281%29.jpg)
+![A sample customer email form field mapping](../.gitbook/assets/customer-email-mapping%20%284%29.jpg)
 
 ## Logged customers
 

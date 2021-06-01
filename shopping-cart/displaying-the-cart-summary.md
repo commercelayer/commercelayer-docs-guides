@@ -173,7 +173,7 @@ On success, the API responds with a `200 OK` status code, returning the order ob
 
 The image below shows how each of the elements of the shopping cart is mapped to a specific field of the order or line item objects. 
 
-![A sample cart summary mapping](../.gitbook/assets/cart-summary-mapping.jpg)
+![A sample cart summary mapping](../.gitbook/assets/cart-summary-mapping%20%282%29.jpg)
 
 ## Additional notes
 

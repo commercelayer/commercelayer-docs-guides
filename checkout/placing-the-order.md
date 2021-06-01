@@ -8,7 +8,7 @@ description: How to authorize the payment and place the order
 
 You have a pending order and you want to place it, authorizing the associated payment source.
 
-![A sample checkout last step](../.gitbook/assets/place-order-cover.jpg)
+![A sample checkout last step](../.gitbook/assets/place-order-cover%20%282%29.jpg)
 
 ## Solution
 

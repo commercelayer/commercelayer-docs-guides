@@ -8,7 +8,7 @@ description: How to select a shipping method for each of the order shipments
 
 You have a pending order and you want to give your customer the possibility to select a shipping method for each of the order shipments, based on its cost and delivery lead time.
 
-![A sample shipping method selection](../.gitbook/assets/select-shipping-method-cover%20%284%29.jpg)
+![A sample shipping method selection](../.gitbook/assets/select-shipping-method-cover%20%285%29.jpg)
 
 ## Solution
 
@@ -625,7 +625,7 @@ For performance reasons and to minimize the number of calls to the API, at this 
 
 The image below shows which specific attribute of the shipping method and delivery lead time object has to be displayed.
 
-![A sample available shipping methods delivery lead times mapping](../.gitbook/assets/select-shipping-method-mapping%20%285%29.jpg)
+![A sample available shipping methods delivery lead times mapping](../.gitbook/assets/select-shipping-method-mapping%20%287%29.jpg)
 
 #### 3. Select a shipping method
 
@@ -892,7 +892,7 @@ On success, the API responds with a `200 OK` status code, returning the selected
 
 The image below shows how the displayed information about the selected shipping method is mapped to specific relationships of the shipment object.
 
-![A sample selected shipping method delivery lead times mapping](../.gitbook/assets/selected-shipping-method-mapping.jpg)
+![A sample selected shipping method delivery lead times mapping](../.gitbook/assets/selected-shipping-method-mapping%20%281%29.jpg)
 
 ## Additional notes
 

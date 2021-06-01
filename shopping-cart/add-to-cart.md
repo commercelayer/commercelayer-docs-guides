@@ -8,7 +8,7 @@ description: How to add new items to your shopping cart
 
 You want to implement the "add to cart" function on a product page. You have the order ID and either the new item ID or SKU code.
 
-![A sample product page with &quot;add to cart&quot; button](../.gitbook/assets/add-to-cart-cover.jpg)
+![A sample product page with &quot;add to cart&quot; button](../.gitbook/assets/add-to-cart-cover%20%282%29.jpg)
 
 ## Solution
 
@@ -16,7 +16,7 @@ Adding a product \(SKU\) to a shopping cart means creating a new line item for a
 
 ### Examples
 
-#### Add a SKU to a shopping cart by ID
+#### Add an SKU to a shopping cart by ID
 
 {% tabs %}
 {% tab title="Request" %}
@@ -131,7 +131,7 @@ If the quantity of the added item results higher than the available one in stock
 {% endtab %}
 {% endtabs %}
 
-#### Add a SKU to a shopping cart by code
+#### Add an SKU to a shopping cart by code
 
 {% tabs %}
 {% tab title="Request" %}
@@ -256,7 +256,7 @@ If you send the POST request without the `"_update_quantity": true` \(or `"_upda
 
 #### The `name` and `image_url` fields
 
-When creating a new line item, the only required attribute is `quantity`. Anyway, we recommend to always populate the `name` and `image_url` fields \(like in the examples above\) in order to show the desired name and image in the [cart summary](displaying-the-cart-summary.md) and order management. When empty, Commerce Layer will try to populate `name` and `image_url` from the associated SKU fields.
+When creating a new line item, the only required attribute is `quantity`. Anyway, we recommend always populating the `name` and `image_url` fields \(like in the examples above\) in order to show the desired name and image in the [cart summary](displaying-the-cart-summary.md) and order management. When empty, Commerce Layer will try to populate `name` and `image_url` from the associated SKU fields.
 
 ## More to read
 
