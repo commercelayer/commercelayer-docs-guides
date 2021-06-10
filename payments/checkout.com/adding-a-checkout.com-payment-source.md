@@ -1,5 +1,5 @@
 ---
-description: How to add an Checkout.com payment source to an order
+description: How to add a Checkout.com payment source to an order
 ---
 
 # Adding the payment source
@@ -210,5 +210,5 @@ Webhooks creation and notification are managed by Commerce Layer and Checkout.co
 
 ## More to read
 
-See our API reference if you need more information on how to [retrieve an order](https://docs.commercelayer.io/api/resources/orders/retrieve_order), [include associations](https://docs.commercelayer.io/api/including-associations), or [create a Checkout.com payment](https://docs.commercelayer.io/api/resources/checkout_com_payments/create_checkou_com_payment).
+See our API reference if you need more information on how to [retrieve an order](https://docs.commercelayer.io/api/resources/orders/retrieve_order), [include associations](https://docs.commercelayer.io/api/including-associations), or [create a Checkout.com payment](https://docs.commercelayer.io/api/resources/checkout_com_payments/create_checkout_com_payment).
 
