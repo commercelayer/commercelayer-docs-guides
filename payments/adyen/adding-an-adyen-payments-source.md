@@ -268,7 +268,7 @@ On success, the API responds with a `201 Created` status code, returning the cre
 
 #### Available payment methods
 
-At the moment of the Adyen payment source creation, Commerce Layer makes a server-to-server request to Adyen to get a list of the available payment methods based on the payment amount and the customer country/device  — see [Adyen documentation](https://docs.adyen.com/checkout/drop-in-web#step-1-get-available-payment-methods) for any reference — and returns it in the `payment_methods` attribute of the Ayden payment object.
+At the moment of the Adyen payment source creation, Commerce Layer makes a server-to-server request to Adyen to get a list of the available payment methods based on the payment amount and the customer country/device  — see [Adyen documentation](https://docs.adyen.com/online-payments/drop-in-web#step-1-get-available-payment-methods) for any reference — and returns it in the `payment_methods` attribute of the Ayden payment object.
 
 {% hint style="info" %}
 The term _payment method_ mentioned here is used to match [Adyen internal naming convention](https://docs.adyen.com/payment-methods) and has nothing to do with Commerce Layer API [payment method](https://docs.commercelayer.io/api/resources/payment_methods) concept you'll find elsewhere in the guides.

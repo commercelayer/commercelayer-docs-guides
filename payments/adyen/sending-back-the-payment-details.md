@@ -6,7 +6,7 @@ description: How to submit a payment request to Adyen
 
 ## Problem
 
-Your customer has submitted credit card information to Adyen — i.e. through one of its [UI components](https://docs.adyen.com/checkout/prebuilt-ui) integrated into your client. You need to submit a payment request with the data returned by the component to proceed with the payment flow.
+Your customer has submitted credit card information to Adyen — i.e. through one of its [UI components](https://docs.adyen.com/online-payments/prebuilt-ui) integrated into your client. You need to submit a payment request with the data returned by the component to proceed with the payment flow.
 
 ## Solution
 
@@ -119,7 +119,7 @@ On success, the API responds with a `200 OK` status code, returning the updated 
 
 #### 3D Secure authentication
 
-In case of specific features enabled in the transaction – e.g. 3DS – you need to get from the client some additional information – such as `browserInfo`, `returnUrl`, etc. – and send them back together with the credit card details at the moment of the payment request submission, as shown in the example above — see [Adyen documentation](https://docs.adyen.com/checkout/3d-secure/redirect-3ds2-3ds1/web-component#make-a-payment) for any reference.
+In case of specific features enabled in the transaction – e.g. 3DS – you need to get from the client some additional information – such as `browserInfo`, `returnUrl`, etc. – and send them back together with the credit card details at the moment of the payment request submission, as shown in the example above — see [Adyen documentation](https://docs.adyen.com/online-payments/3d-secure/redirect-3ds2-3ds1/web-component#make-a-payment) for any reference.
 
 ## More to read
 
