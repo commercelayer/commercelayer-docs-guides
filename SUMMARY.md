@@ -50,4 +50,8 @@
     * [Adding a wire transfer payment source](payments/manual-payments/adding-a-wire-transfer-payment-source.md)
   * [External payments](payments/external-payments/README.md)
     * [Adding an external payment source](payments/external-payments/adding-an-external-payment-source.md)
+* [Inventory strategies](inventory-model-strategies/README.md)
+  * [Split shipments](inventory-model-strategies/split-shipments.md)
+  * [Ship from primary](inventory-model-strategies/transfer-to-primary.md)
+  * [Ship from first available \(or primary\)](inventory-model-strategies/transfer-to-first-available-or-primary.md)
 
